@@ -74,6 +74,7 @@ export default {
     return api.get('/admin/dashboard/stats', {
       params: {
         timestamp: new Date().getTime()
+      }
     })
   },
 
