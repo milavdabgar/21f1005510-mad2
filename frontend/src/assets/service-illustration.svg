@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shapes -->
+  <circle cx="300" cy="200" r="180" fill="#E3F2FD" />
+  <circle cx="300" cy="200" r="150" fill="#BBDEFB" />
+  
+  <!-- Stylized service icons -->
+  <g transform="translate(200,150)">
+    <!-- Tools icon -->
+    <rect x="0" y="0" width="60" height="60" rx="10" fill="#2196F3" />
+    <path d="M15 30 L45 30 M30 15 L30 45" stroke="white" stroke-width="4"/>
+    
+    <!-- House icon -->
+    <rect x="80" y="0" width="60" height="60" rx="10" fill="#1976D2" />
+    <path d="M90 30 L110 15 L130 30 M100 30 L100 45 L120 45 L120 30" stroke="white" stroke-width="2"/>
+    
+    <!-- Person icon -->
+    <rect x="160" y="0" width="60" height="60" rx="10" fill="#0D47A1" />
+    <circle cx="190" cy="20" r="8" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M175 45 C175 35 205 35 205 45" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="100" r="5" fill="#2196F3" />
+  <circle cx="450" cy="300" r="5" fill="#2196F3" />
+  <circle cx="400" cy="80" r="5" fill="#2196F3" />
+  <circle cx="200" cy="350" r="5" fill="#2196F3" />
+</svg>

@@ -1,0 +1,46 @@
+@import './base.css';
+
+/* Additional color variables */
+:root {
+  --text-muted: #6c757d;
+}
+
+/* Utility classes */
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-3 {
+  margin-bottom: var(--spacing-3);
+}
+
+.mb-4 {
+  margin-bottom: var(--spacing-4);
+}
+
+.ms-2 {
+  margin-left: var(--spacing-2);
+}
+
+/* Auth card */
+.auth-card {
+  background: var(--white-color);
+  padding: var(--spacing-4);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+/* Messages */
+.error {
+  color: var(--danger-color);
+  margin-bottom: var(--spacing-3);
+}
+
+.success {
+  color: var(--success-color);
+  margin-bottom: var(--spacing-3);
+}
